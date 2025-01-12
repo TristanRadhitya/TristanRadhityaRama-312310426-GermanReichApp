@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundangkatanudara"
+    tools:context=".AngkatanudaraActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/angkatanudara" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Luftwaffe (pelafalan dalam bahasa Jerman: [ˈlʊftvafə] adalah cabang peperangan udara dari pasukan Wehrmacht Jerman selama Perang Dunia II. Cabang udara militer Jerman selama Perang Dunia I, Luftstreitkräfte dari Angkatan Darat dan Marine-Fliegerabteilung dari Angkatan Laut telah dibubarkan pada Mei 1920 sebagai akibat dari ketentuan Perjanjian Versailles yang menyatakan bahwa Jerman dilarang memiliki angkatan udara."
+        app:layout_constraintBottom_toTopOf="@id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="400dp"
+        android:text="Luftwaffe terbukti berperan dalam kemenangan Jerman di seluruh Polandia dan Eropa Barat pada tahun 1939 dan 1940. Namun, selama Pertempuran Inggris, meskipun menimbulkan kerusakan parah pada infrastruktur RAF dan selama Blitz berikutnya, menghancurkan banyak kota di Inggris, angkatan udara Jerman gagal untuk mengalahkan Inggris yang terpojok agar tunduk pada Jerman. Sejak tahun 1942, kampanye pengeboman Sekutu secara bertahap menghancurkan kekuatan tempur Luftwaffe . Dari akhir 1942, Luftwaffe menggunakan surplus pasukan darat, cadangan, dan personel lainnya untuk meningkatkan Divisi Lapangan Luftwaffe. Selain layanannya di Barat, Luftwaffe beroperasi di Uni Soviet, Afrika Utara, dan Eropa Selatan."
+        app:layout_constraintBottom_toBottomOf="@id/btnback3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnback3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/btnback" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="66dp"
+        android:text="LUFTWAFFE"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

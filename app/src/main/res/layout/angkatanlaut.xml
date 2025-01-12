@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundangkatanlaut"
+    tools:context=".AngkatanlautActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kriegsmarine" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Kriegsmarine adalah angkatan laut Jerman Nazi dari tahun 1935 sampai 1945. Kriegsmarine menggantikan Angkatan Laut Kekaisaran Jerman dari Kekaisaran Jerman (1871–1918) dan Reichsmarine periode antar-perang (1919–1935) dari Republik Weimar. Kriegsmarine adalah salah satu dari tiga cabang resmi, bersama dengan Heer (Angkatan Darat) dan Luftwaffe (Angkatan Udara) dari Wehrmacht, angkatan bersenjata Jerman dari 1933 hingga 1945."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/textView3"
+        tools:layout_editor_absoluteX="6dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="270dp"
+        android:text="Melanggar Perjanjian Versailles, Kriegsmarine tumbuh dengan cepat selama persenjataan kembali Jerman pada 1930-an. Perjanjian 1919 telah membatasi ukuran angkatan laut Jerman sebelumnya, dan melarang pembangunan kapal selam.[2] Kapal Kriegsmarine dikerahkan ke perairan di sekitar Spanyol selama Perang Saudara Spanyol (1936-1939) dengan kedok menegakkan non-intervensi, tetapi dalam kenyataannya mendukung sisi Nasionalis melawan Republik Spanyol."
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnback2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/btnback" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="26dp"
+        android:text="KRIEGSMARINE"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

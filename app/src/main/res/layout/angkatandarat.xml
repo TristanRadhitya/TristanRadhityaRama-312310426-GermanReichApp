@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkgroundangkatandarat"
+    tools:context=".AngkatandaratActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="570dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/angkatandarat" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Heer (bahasa Jerman: (pertahanan darat), pelafalan dalam bahasa Jerman: [ˈheːɐ̯]) adalah nama resmi untuk angkatan darat dari Jerman Nazi dari tahun 1935 hingga 1945, ia membentuk sebagian dari Wehrmacht. Sewaktu Perang Dunia II, sebanyak 15 juta pasukan ikut dalam Tentara Darat Jerman, yang mana kira-kira 7 juta pasukan telah menjadi korban perang. Lain dengan Heer, Waffen-SS (SS-Bersenjata) merupakan pasukan tentara Reich Ketiga yang dibentuk dari berbagai etnik dan berbagai negara. Berkembang dari 3 resimen kepada 38 divisi sewaktu Perang Dunia II, ia ikut bersama tentara darat tetapi tidak pernah secara resmi menjadi bagian darinya."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="anya 17 bulan setelah Adolf Hitler mengumumkan program persenjataan dimulai, Tentara Darat telah mencapai sasaran proyek sebanyak 36 divisi. Semasa musim gugur tahun 1937, 2 korporasi lagi telah didirikan. Menjelang 1938, 4 korporasi tambahan dibentuk dari 5 divisi Tentara Darat Austria setelah peristiwa Anschluss pada bulan Maret. Dalam masa pengembangannya oleh Hitler, Tentara Darat Jerman terus membangunkan konsep kepioniran dalam Perang Dunia I"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <ImageButton
+        android:id="@+id/btnback4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/btnback" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="143dp"
+        android:text="HEER"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+</androidx.constraintlayout.widget.ConstraintLayout>
